@@ -1,0 +1,43 @@
+When the user launches the Stock Market Prediction System Streamlit app, they are first welcomed with a title screen and a Start button. After clicking Start, they are presented with an interactive sidebar where they can:
+
+Select Sector and Stock: Choose a sector (IT, Banking, Pharma, Energy) and a specific stock (like TCS, HDFC Bank, Reliance, etc.).
+
+Choose a Prediction Model: Pick among Random Forest, LightGBM, or CatBoost for stock price prediction.
+
+Select Graph Type: View different types of stock visualizations like Candlestick Chart, Moving Averages, Volume Bar Chart, or RSI plot.
+
+Set Advanced Settings: Adjust the Train-Test split ratio and decide whether to display the Predicted vs Actual stock prices.
+
+Once settings are configured, the system performs the following:
+
+Displays Stock Visualization:
+
+Candlestick chart showing open, close, high, and low prices.
+
+Moving average plots (20-day and 50-day MA).
+
+Volume chart showing daily traded volume.
+
+RSI (Relative Strength Index) graph.
+
+Performs Stock Prediction:
+
+The selected machine learning model is trained and tested.
+
+Prediction accuracy (%) is displayed clearly using a metric card.
+
+An optional line graph comparing actual vs predicted stock movements is shown.
+
+Analyzes Live News Sentiment:
+
+Fetches latest real-time news articles related to the selected stock.
+
+Performs sentiment analysis (positive, neutral, negative) on each news headline.
+
+Displays the news title with sentiment color-coded (green for positive, red for negative, blue for neutral).
+
+Last Updated Time:
+
+Shows when the data and predictions were last refreshed.
+
+Overall, the system combines stock trends, machine learning predictions, and real-time news sentiment into a single easy-to-use dashboard, enabling better trading or investment decisions.
